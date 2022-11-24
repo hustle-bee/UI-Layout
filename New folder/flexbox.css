@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.item {
+
+    background-color: royalblue;
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    
+
+}
