@@ -1,0 +1,25 @@
+header {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+#p1 {
+    display: flex;
+    flex: 1;
+}
+
+#p2 {
+    display: flex;
+    justify-content: right;
+
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+}
