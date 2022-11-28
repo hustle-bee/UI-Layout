@@ -5,16 +5,31 @@ header {
     font-size: 35px;
 }
 
-
-#p1 {
+#parent-1 {
     display: flex;
+}
+
+#parent1-img1 {
+    flex: 1;
+    height: 500px;
+}
+
+#parent1-paragraph1 {
     flex: 1;
 }
 
-#p2 {
+#parent-2 {
     display: flex;
     justify-content: right;
+}
 
+#parent2-paragraph-2 {
+    flex: 7;
+}
+
+#parent2-img2 {
+    flex: 3;
+    height: 300px;
 }
 
 footer {
