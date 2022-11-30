@@ -1,11 +1,10 @@
 header {
     display: flex;
     background-color: #ffffff;
-    padding: 30px;
     text-align: center;
-    font-size: 35px;
-    justify-content: center;
+    font-size: 16px;
     justify-content: space-between;
+    align-items: center;
 }
 
 #first {
@@ -16,7 +15,7 @@ header {
 
 #heading {
     color: yellow;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
