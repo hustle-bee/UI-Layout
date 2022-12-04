@@ -1,22 +1,28 @@
+@media(max-width:500px) {
+    body {
+        background-color: wheat;
+    }
+}
+
 header {
     display: flex;
     background-color: #ffffff;
-    padding: 30px;
     text-align: center;
-    font-size: 35px;
-    justify-content: center;
+    font-size: 16px;
     justify-content: space-between;
+    align-items: center;
 }
 
 #first {
     width: 40px;
     height: 40px;
     justify-content: left;
+
 }
 
 #heading {
     color: yellow;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
@@ -26,28 +32,44 @@ header {
     justify-content: right;
 }
 
+
 #p-1 {
     display: flex;
+    
 }
 
-#infant-1 {
-    flex: 7;
+@media (max-width:300px) {
+    #infant-1 {
+        flex: 7;
+        display: block;
+        background-color: lightgreen;
+    }
 }
 
-#infant-2 {
-    flex: 3;
+@media (min-width:300px) and (max-width:500px) {
+    #infant-2 {
+        background-color: blue;
+        flex: 3;
+    }
 }
 
 #p-2 {
     display: flex;
+    display: block;
 }
 
-#child-1 {
-    flex: 1;
+@media (min-width:300px) {
+    #child-1 {
+        background-color: red;
+        flex: 1;
+    }
 }
 
-#child-2 {
-    flex: 1;
+@media(max-width:500px) {
+    #child-2 {
+        flex: 1;
+        background-color: darkorange;
+    }
 }
 
 footer {
