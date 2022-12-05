@@ -11,6 +11,7 @@ header {
     width: 40px;
     height: 40px;
     justify-content: left;
+
 }
 
 #heading {
@@ -29,24 +30,9 @@ header {
     display: flex;
 }
 
-#infant-1 {
-    flex: 7;
-}
-
-#infant-2 {
-    flex: 3;
-}
-
 #p-2 {
     display: flex;
-}
-
-#child-1 {
-    flex: 1;
-}
-
-#child-2 {
-    flex: 1;
+    display: block;
 }
 
 footer {

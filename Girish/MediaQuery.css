@@ -1,0 +1,36 @@
+@media(max-width:500px) {
+    body {
+        background-color: wheat;
+    }
+}
+
+
+
+@media (max-width:300px) {
+    #infant-1 {
+        flex: 7;
+        display: block;
+        background-color: lightgreen;
+    }
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    #infant-2 {
+        background-color: blue;
+        flex: 3;
+    }
+}
+
+@media (min-width:300px) {
+    #child-1 {
+        background-color: red;
+        flex: 1;
+    }
+}
+
+@media(max-width:500px) {
+    #child-2 {
+        flex: 1;
+        background-color: darkorange;
+    }
+}
