@@ -4,9 +4,7 @@
     }
 }
 
-#p-1 {
-    display: flex;
-}
+
 
 @media (max-width:300px) {
     #infant-1 {
@@ -21,11 +19,6 @@
         background-color: blue;
         flex: 3;
     }
-}
-
-#p-2 {
-    display: flex;
-    display: block;
 }
 
 @media (min-width:300px) {
