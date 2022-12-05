@@ -1,0 +1,78 @@
+<html>
+<style>
+.flex-container {
+  display: flex;
+    }
+ .flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  
+    }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .col-1 {
+    background: #ebd7bd;
+    flex: 1;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .content section {
+    flex: 4;
+    min-height: 80vh;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 10vh;
+  }
+  header, footer, section, nav {
+    padding: 1em;
+  }
+  header {
+    display: flex;
+  }
+
+  nav div{
+    padding: 10px;
+  }
+
+  header div{
+    padding: 10px;
+  }
+</style>
+<body>
+  <nav class="col-1">
+    <div>Dashboard</div>
+    <div>Sidebar 1</div>
+    <div>Sidebar 1</div>
+    <div>Sidebar 1</div>
+    <div>Sidebar 1</div>
+  </nav>
+  <div class="col-2">
+  	<header>
+        <div class="flex-container">
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Career</div>
+            <div>Contact Us</div>
+        </div>
+        
+    </header>
+    <main class="content">
+    <section>This is a main page of this articles</section>
+    </main>
+  	<footer>Designed By : Lalita</footer>
+  </div>
+</body>
