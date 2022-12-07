@@ -1,36 +1,52 @@
-@media(max-width:500px) {
+@media(max-width:20.8rem) {
     body {
         background-color: wheat;
+        max-width: 100%;
+        max-width: 100%;
     }
 }
 
+@media (max-width:998px) {
+    html {
+        font-size: 62.5%;
+    }
+}
 
+@media (max-width:30rem) {
+    #p-1 {
+        flex-direction: column;
+    }
+}
 
-@media (max-width:300px) {
+@media (max-width:30rem) {
     #infant-1 {
         flex: 7;
-        display: block;
         background-color: lightgreen;
     }
 }
 
-@media (min-width:300px) and (max-width:500px) {
+@media (max-width:30rem) {
     #infant-2 {
-        background-color: blue;
         flex: 3;
     }
 }
 
-@media (min-width:300px) {
+@media (max-width:30rem) {
+    #p-2 {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:30rem) {
     #child-1 {
-        background-color: red;
         flex: 1;
     }
 }
 
-@media(max-width:500px) {
+@media(max-width:30rem) {
     #child-2 {
         flex: 1;
         background-color: darkorange;
+
     }
 }

@@ -2,27 +2,27 @@ header {
     display: flex;
     background-color: #ffffff;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     justify-content: space-between;
     align-items: center;
 }
 
 #first {
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     justify-content: left;
 
 }
 
 #heading {
     color: yellow;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: .1rem;
     -webkit-text-stroke-color: black;
 }
 
 #second {
-    width: 40px;
-    height: 40px;
+    width: 4rem;
+    height: 4rem;
     justify-content: right;
 }
 
@@ -32,12 +32,11 @@ header {
 
 #p-2 {
     display: flex;
-    display: block;
 }
 
 footer {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
-    font-size: 35px;
+    font-size: 3.5rem;
 }
